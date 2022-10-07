@@ -12,11 +12,11 @@ for(i=0;i<row;i++)
     //scanf("%d",&row[i]);
     //colum
     for(j=0;j<colum;j++)
-    {
+    {  printf("A[%d][%d]= \t",i,j);
         scanf("%d",&array[i][j]);
 
     }
-    //printf("\n");
+    printf("\n");
 }
 printf("the array is \n");
 for(i=0;i<row;i++)
